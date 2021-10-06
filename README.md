@@ -2,14 +2,14 @@
 "Understanding people's sentiment, trends in vaccine talk of the 2019 COVID-19 Pandemic"
 
 ## Table of Content
-- <b>[Overview](https://publichealth.jmir.org/2020/4/e21978/)
-- <b>[Goals]
-- <b>[Data]
-- <b>[Modeling]
-- <b>[Conclusion]
-- <b>[Future Work] 
-- <b>[Software Requirements]
-- <b>[Resource]
+- <b>[Overview](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#overview)
+- <b>[Goals](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#goals)
+- <b>[Data](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#data)
+- <b>[Modeling](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#modeling)
+- <b>[Conclusion](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#conclusion)
+- <b>[Future Work] (https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#future-work)
+- <b>[Software Requirements](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#software-requirements)
+- <b>[Resource](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#resource)
   
   ---
 ## Overview
