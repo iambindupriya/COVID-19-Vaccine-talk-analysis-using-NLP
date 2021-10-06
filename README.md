@@ -77,8 +77,6 @@ Last Update  : 10.5.2021
 ## Resource
 - <b>[An analysis of COVID-19 vaccine sentiments and opinions on Twitter](https://www.ijidonline.com/article/S1201-9712(21)00462-8/fulltext)
 - <b>[COVID-19 Vaccination Awareness and Aftermath: Public Sentiment Analysis on Twitter Data and Vaccinated Population Prediction in the USA](https://www.mdpi.com/2076-3417/11/13/6128)
-- <b>[Public Perception of the COVID-19 Pandemic on Twitter: Sentiment Analysis and Topic Modeling Study
-Public Perception of the COVID-19 Pandemic on Twitter: Sentiment Analysis and Topic Modeling Study
-Authors of this article:](https://publichealth.jmir.org/2020/4/e21978/)
+- <b>[Public Perception of the COVID-19 Pandemic on Twitter: Sentiment Analysis and Topic Modeling Study](https://publichealth.jmir.org/2020/4/e21978/)
 
 
