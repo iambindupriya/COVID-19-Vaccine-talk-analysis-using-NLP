@@ -1,6 +1,7 @@
 # COVID-19-Vaccine-talk-analysis-using-NLP
 "Understanding people's sentiment, trends in vaccine talk of the 2019 COVID-19 Pandemic"
 
+![NLP-image.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/NLP-image.jpeg)
 
 ## Table of Content
 - <b>[Overview](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#overview)
