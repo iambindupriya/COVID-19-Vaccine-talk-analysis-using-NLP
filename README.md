@@ -3,6 +3,15 @@
 
 ![NLP-image.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/NLP-image.jpeg)
 
+---
+
+## Repo Content
+- <b>Data</b> - 
+- <b>[images](https://github.com/Naidanzheng/Homework-2/blob/Master/Image)</b> - Various plots and images used in the documents found in this repo.
+- <b>[README.md](README.md)</b> - A description of the project goals, process, and results.
+
+---
+
 ## Table of Content
 - <b>[Overview](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#overview)
 - <b>[Goals](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#goals)
