@@ -8,7 +8,7 @@
 ## Repo Content
 - <b>Data</b> - 
 - <b>[images](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/tree/main/image)</b> - Various plots and images used in the documents found in this repo.
-- <b>[Vaccine-SentimentAnalysis.ipynb](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/Vaccine-SentimentAnalysis%20.ipynb)</b> - The main Jupyter Notebook containing the models and analysis for this project.
+- <b>[Vaccine-SentimentAnalysis.ipynb](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/Vaccine-SentimentAnalysis%20.ipynb)</b> - The main Jupyter Notebook containing the sentiment analysis for this project.
 - <b>[README.md](README.md)</b> - A description of the project goals, process, and results.
 
 ---
