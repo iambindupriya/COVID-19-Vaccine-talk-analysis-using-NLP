@@ -14,7 +14,7 @@
 ---
 
 ## Table of Content
-- <b>[Introduction](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#introduction)
+- <b>[Overview](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#overview)
 - <b>[Goals](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#goals)
 - <b>[Motivation and Background](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#motivation-and-background)
 - <b>[Data](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#data)
@@ -54,7 +54,7 @@ Data was originally planned to be collected using the Tweepy library in python.
 The dataset will likely need to be cleaned for the following reasons:
 Retweeting may cause some tweets to appear more than once
 Non-standard characters such as Emojis being present
-Spelling errors in tweets may throw off any NLP
+Spelling errors in tweets may throw off any NLP.
 
 ## Limitation
 - Tweepy limits the amount of scraping at a time to 3200 individual tweets
