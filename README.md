@@ -51,12 +51,15 @@ Non-standard characters such as Emojis being present
 Spelling errors in tweets may throw off any NLP
 
 ## Limitation
-  Tweepy limits the amount of scraping at a time to 3200 individual tweets
--Tweepy cannot get tweets in a range via datetime, only by date
--Retweets in Tweepy are limited to only 140 characters before they are cut off
---In response to this, we have transferred to using the snscrape library to gather our data
---The benefits of this are that snscrape has no such limitations on how it gathers the data, and has shown to be much more efficient at doing so. 
---Columns of the dataframe include: url, date, content, user, lang, likeCount, retweetCount, and hashtags.
+Tweepy limits the amount of scraping at a time to 3200 individual tweets
+  
+Tweepy cannot get tweets in a range via datetime, only by date
+  
+Retweets in Tweepy are limited to only 140 characters before they are cut off
+ 
+In response to this, we have transferred to using the snscrape library to gather our data
+The benefits of this are that snscrape has no such limitations on how it gathers the data, and has shown to be much more efficient at doing so. 
+Columns of the dataframe include: url, date, content, user, lang, likeCount, retweetCount, and hashtags.
 
 
 ## Modeling
