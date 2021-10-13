@@ -84,8 +84,8 @@ Libraries    : numPy,pandas, matplotlib, seaborn, datetime, scikit-learn,warning
 </pre>
 
  <pre>
-Duration     : October 2021
-Last Update  : 10.5.2021
+Duration     : October - December 2021
+Last Update  : 10.13.2021
 </pre>
 
 ## Resource
