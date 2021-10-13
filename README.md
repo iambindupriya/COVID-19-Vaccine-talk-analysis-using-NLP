@@ -39,7 +39,8 @@ We will perform a time series forecasting on the vaccination scenario of the USA
   Sentiment analysis (also known as opinion mining or emotion AI) is the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, and study affective states and subjective information. Sentiment analysis is widely applied to voice of the customer materials such as reviews and survey responses, online and social media, and healthcare materials for applications that range from marketing to customer service to clinical medicine.
   
   The Coronavirus disease-19 outbreak is a public health emergency of international concern. The COVID-19 pandemic is different from any previous pandemic. The variability of symptoms and the spread of the virus have led to an unprecedented speed of transmission. With the rapid increase in the number of confirmed cases, about 100,000 people are diagnosed every day. Vaccines may be the most effective way to suppress the spread of the virus. However, the public's attitude towards vaccines affects the vaccination rate and the time when the epidemic is over. Therefore, understanding the public's sentiments on vaccines is of vital importance to vaccination and epidemic control.
-  
+![word.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/word.png)
+
 ## Research Questions
 1. Is there a significant change in people's sentiment about vaccination?
 
@@ -55,7 +56,6 @@ The dataset will likely need to be cleaned for the following reasons:
 Retweeting may cause some tweets to appear more than once
 Non-standard characters such as Emojis being present
 Spelling errors in tweets may throw off any NLP.
-
 ## Limitation
 - Tweepy limits the amount of scraping at a time to 3200 individual tweets
 - Tweepy cannot get tweets in a range via datetime, only by date
