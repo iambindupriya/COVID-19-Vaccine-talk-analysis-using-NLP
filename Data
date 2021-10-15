@@ -1,6 +1,6 @@
 https://drive.google.com/drive/folders/1AQGKzE_7JSEaio6TfpTeW0rrGDGACCRI?usp=sharing
 
 Feel free to jump to this link to access our dataset.
-As we are doing a monthly analysis to detect change in people's sentiment, we have 6 datasets of 3 months march, april and may of 2020 and 2021. 
-In each dataset row size = 50000, columm size = 31.
+As we are doing a monthly analysis to detect change in people's sentiment, we have 6 datasets of 6 months march, april and may of 2020 and 2021. 
+In each dataset row size = 50000, column size = 31.
 Collective(of 6 datasets) row count is 300000, column count = 31.
