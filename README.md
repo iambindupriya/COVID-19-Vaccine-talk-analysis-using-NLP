@@ -67,9 +67,9 @@ Spelling errors in tweets may throw off any NLP.
 
 ## Exploratory data analysis
  We presented our data using various plots and charts. From graph 1a and 1b, we can see that from the data set, there are about 7600 positive sentiments, which is 42.4% of all tweets. The second is neutral sentiment, and the least is negative sentiment. From our data set, most people's attitudes towards vaccines are positive, or at least neutral, while those who have a negative view of vaccination remain a small minority with less than 25% of the tweets scored.
- ![Pie Graph.png]https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/Bar%20Graph.png 
+ ![Pie Graph.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/Bar%20Graph.png)
  Figure 1a.
- ![Bar Graph.png]https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/Pie%20Graph.png 
+ ![Bar Graph.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/Pie%20Graph.png)
  Figure 1b.
 
 A word cloud visualizes the distribution of text by displaying words in various sizes, showing the frequency of each word in the text. Looking at the word cloud for all tweets, it shows that the sentiments are related to vaccination such as "clinical trial", "dose", "johnson". We show the high-frequency word distribution for each sentiment. We separated tweets into different data frames. For clarity,  the words are categorized into positive, negative, and neutral.
