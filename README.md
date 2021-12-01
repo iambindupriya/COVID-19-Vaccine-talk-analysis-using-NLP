@@ -69,9 +69,11 @@ Spelling errors in tweets may throw off any NLP.
  We presented our data using various plots and charts. From graph 1a and 1b, we can see that from the data set, there are about 7600 positive sentiments, which is 42.4% of all tweets. The second is neutral sentiment, and the least is negative sentiment. From our data set, most people's attitudes towards vaccines are positive, or at least neutral, while those who have a negative view of vaccination remain a small minority with less than 25% of the tweets scored.
   
 ![Pie Graph.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/Pie%20graph.png)
+  
  Figure 1a.
   
 ![Bar Graph.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/Bar%20Graph.png)
+  
  Figure 1b.
   
   
