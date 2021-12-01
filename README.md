@@ -20,7 +20,8 @@
 - <b>[Motivation and Background](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#motivation-and-background)
 - <b>[Data](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#data)
 - <b>[Limitation](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#limitation)
-- <b>[Modeling](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#modeling)
+- <b>[Exploratory data analysis](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#limitation)
+- <b>[Modeling](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#exploratory-data-analysis)
 - <b>[Conclusion](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#conclusion)
 - <b>[Future Work](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#future-work)
 - <b>[Software Requirements](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/README.md#software-requirements)
@@ -40,7 +41,6 @@ We will perform a time series forecasting on the vaccination scenario of the USA
   Sentiment analysis (also known as opinion mining or emotion AI) is the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, and study affective states and subjective information. Sentiment analysis is widely applied to voice of the customer materials such as reviews and survey responses, online and social media, and healthcare materials for applications that range from marketing to customer service to clinical medicine.
   
   The Coronavirus disease-19 outbreak is a public health emergency of international concern. The COVID-19 pandemic is different from any previous pandemic. The variability of symptoms and the spread of the virus have led to an unprecedented speed of transmission. With the rapid increase in the number of confirmed cases, about 100,000 people are diagnosed every day. Vaccines may be the most effective way to suppress the spread of the virus. However, the public's attitude towards vaccines affects the vaccination rate and the time when the epidemic is over. Therefore, understanding the public's sentiments on vaccines is of vital importance to vaccination and epidemic control.
-![word.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/word.png)
 
 ## Research Questions
 1. Is there a significant change in people's sentiment about vaccination?
@@ -65,8 +65,22 @@ Spelling errors in tweets may throw off any NLP.
   - The benefits of this are that snscrape has no such limitations on how it gathers the data, and has shown to be much more efficient at doing so. 
   - Columns of the dataframe include: url, date, content, user, lang, likeCount, retweetCount, and hashtags.
 
+## Exploratory data analysis
+A word cloud visualizes the distribution of text by displaying words in various sizes, showing the frequency of each word in the text. Looking at the word cloud for all tweets, it shows that the sentiments are related to vaccination such as "clinical trial", "dose", "johnson". We show the high-frequency word distribution for each sentiment. We separated tweets into different data frames. For clarity,  the words are categorized into positive, negative, and neutral.
 
+In Figure 4, we showed the high frequency word distribution for positive sentiments. Some words are related to positive sentiments, such as "help", "good", "efficient", and "save lives", We can see that from positive sentiments, people generally believe that vaccines are effective and useful.
+  
+In Figure 5, we showed the high frequency word distribution for negative sentiments. Some words are related to negative sentiments, such as " die", "blood clot" and "anti-vaxxer", "side effects". In these negative sentiments, we found that compared to all the vaccines, only Johnson & Johnson vaccine was frequently mentioned. We think that perhaps the side effects of the Johnson & Johnson vaccine are also the reason why people refuse to get vaccinated. Side effects of vaccines were propagated through tweets very rapidly, which is one of the advantages of social media that can be used by health officials.  The results will help them to better comprehend and plan vaccination campaigns.
+  
+In Figure 6, we showed the high frequency word distribution for neutral sentiments. Some words are related to neutral sentiments, such as vaccination names, "CDC"，“dose”. We can see that some high-frequency tokens such as 'covid', 'vaccine', 'covid-vaccine' are frequently used in 3 categorical classes, which might not give us any insights into the sentiment.  we will remove these words along with stop words, which will not impact our performance.
+
+  
 ## Modeling
+MultinomialNB: The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification). The multinomial distribution normally requires integer feature counts. We divide the data into training (80%) and testing sets (20%).
+  
+We manually classified a random sample of 200 tweets from our main dataset,and proceeded to use this to train the MultinomialNB classifier, whose  accuracy score after being trained on this data was 91.25%, which is considerably high.
+ 
+
 
   
   
