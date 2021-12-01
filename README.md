@@ -101,7 +101,7 @@ Excluding those anti-vaxxers who deliberately spread rumors, health officials ne
 
   
 ## Future Work
-
+While the model performed well in its current form, there are some areas in which it could be improved to make a more complete project. Ideally, there are two types of functionality that would be useful to implement, the first would be to be able to have the instant classification of small samples of text relating to public health. The second would be the ability to track geographic data on said tweets so as to identify potential areas that are due for a surge in cases. For example, if there are a lot of people in one suburb who are all tweeting very negative opinions about getting vaccinated, then individuals such as health officials or physicians at local hospitals would know that they would need to prepare for a potential increase in cases. This would ideally also be cross-referenced with existing population data for the region, as being able to determine factors such as population density or access to healthcare would help to determine the potential severity of an outbreak. If these two functions were implemented, the model would have its potential user base drastically increase alongside its capabilities.
   
 
 ## Software Requirements
@@ -113,7 +113,7 @@ Libraries    : numPy,pandas, matplotlib, seaborn, datetime, scikit-learn,warning
 
  <pre>
 Duration     : October - December 2021
-Last Update  : 10.13.2021
+Last Update  : 11.30.2021
 </pre>
 
 ## Resource
