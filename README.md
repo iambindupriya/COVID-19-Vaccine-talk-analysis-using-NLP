@@ -71,7 +71,13 @@ Spelling errors in tweets may throw off any NLP.
   
   
 ## Conclusion
+ This is a quantitative analysis of COVID-19 vaccination in the aftermath of the 2020 COVID-19 outbreak. Using a Twitter dataset, we examine public opinion on COVID-19 vaccinations. Despite some side effects observed in various vaccines, we find that the public sentiment is more positive than negative.
+From the perspective of negative emotions, people are skeptical about the safety of vaccines, and they are more worried about whether they will have side effects after vaccination, and lead to other diseases or deaths. In addition to widely spread rumors, improving the safety of vaccines and how to effectively promote the safety of vaccines is also a difficult problem for health officials to face. 
   
+In addition, in the negative sentiments, we found a special group called anti-vaxxers.. People who feel vaccines are unsafe and infringe on their human rights are known as anti-vaxxers. They usually dispute the existence or validity of the science that supports its widespread use.  Although the anti-vaccine organization is small, their online communication strategy is very effective and far-reaching, which is worrying. With the outbreak of the COVID-19 crisis, these people have realized that this virus can take anyone's life. People of any age, although high-risk groups are particularly vulnerable, there are also many healthy people who get sick and die from the virus. Some anti-vaxxers have begun to try vaccination.
+  
+Excluding those anti-vaxxers who deliberately spread rumors, health officials need to understand the concerns of those who oppose vaccines. To curb the spread of anti-vaccine sentiment, health officials need to understand how it formed. They need to work hard to reduce the dissemination of incorrect information on social media and provide correct guidance to the public in a timely manner. With concrete evidence to prove the credibility of the vaccine, we believe that more and more anti-vaccine people will start to vaccinate
+
   
 ## Future Work
 
