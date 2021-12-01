@@ -73,8 +73,15 @@ In Figure 4, we showed the high frequency word distribution for positive sentime
 In Figure 5, we showed the high frequency word distribution for negative sentiments. Some words are related to negative sentiments, such as " die", "blood clot" and "anti-vaxxer", "side effects". In these negative sentiments, we found that compared to all the vaccines, only Johnson & Johnson vaccine was frequently mentioned. We think that perhaps the side effects of the Johnson & Johnson vaccine are also the reason why people refuse to get vaccinated. Side effects of vaccines were propagated through tweets very rapidly, which is one of the advantages of social media that can be used by health officials.  The results will help them to better comprehend and plan vaccination campaigns.
   
 In Figure 6, we showed the high frequency word distribution for neutral sentiments. Some words are related to neutral sentiments, such as vaccination names, "CDC"，“dose”. We can see that some high-frequency tokens such as 'covid', 'vaccine', 'covid-vaccine' are frequently used in 3 categorical classes, which might not give us any insights into the sentiment.  we will remove these words along with stop words, which will not impact our performance.
+![Positive.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/Positive.png)
+  Figure 4.
+![Negative.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/Negative.png)
+  Figure 5.
+![Neutral.png](https://github.com/iambindupriya/COVID-19-Vaccine-talk-analysis-using-NLP/blob/main/image/Neutral.png)
+  Figure 6.
 
-  
+
+
 ## Modeling
 MultinomialNB: The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification). The multinomial distribution normally requires integer feature counts. We divide the data into training (80%) and testing sets (20%).
   
